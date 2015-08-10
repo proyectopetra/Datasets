@@ -1,4 +1,4 @@
-datos = read.csv("tiempos_algoritmoTrazas.csv", sep = ",",comment.char = "#")
+datos = read.csv("../trazas/tiempos_algoritmoTrazas.csv", sep = ",",comment.char = "#")
 
 plot(datos[c("VENTANA","DURACION")])
 plot(x=datos$VENTANA,y=datos$DURACION)
